@@ -13,10 +13,10 @@ body {
 
 .header_text {
     font-family: 'Nunito';
-    font-size: 40px;
+    font-size: 56px;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    margin: 10px 0;
+    margin: 14px 0;
 }
 
 .circle_wrapper {
@@ -24,65 +24,60 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 400px;
+    width: 560px;
+    height: 560px;
     margin: auto;
 }
 
-/* Circle container for images */
 .circle_container {
     position: absolute;
-    height: 50px;
-    left: 150px;
+    height: 70px;
+    left: 210px;
     border-radius: 50%;
     transform: translate(-50%, -50%);
 }
 
 .circle_container .img {
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     object-fit: cover;
     transform-origin: center;
 }
 
-/* Position images in a circular layout */
-.circle_container img:nth-child(1) { transform: rotate(0deg) translate(150px) rotate(0deg); }
-.circle_container img:nth-child(2) { transform: rotate(36deg) translate(150px) rotate(-36deg); }
-.circle_container img:nth-child(3) { transform: rotate(72deg) translate(150px) rotate(-72deg); }
-.circle_container img:nth-child(4) { transform: rotate(108deg) translate(150px) rotate(-108deg); }
-.circle_container img:nth-child(5) { transform: rotate(144deg) translate(150px) rotate(-144deg); }
-.circle_container img:nth-child(6) { transform: rotate(180deg) translate(150px) rotate(-180deg); }
-.circle_container img:nth-child(7) { transform: rotate(216deg) translate(150px) rotate(-216deg); }
-.circle_container img:nth-child(8) { transform: rotate(252deg) translate(150px) rotate(-252deg); }
-.circle_container img:nth-child(9) { transform: rotate(288deg) translate(150px) rotate(-288deg); }
-.circle_container img:nth-child(10) { transform: rotate(324deg) translate(150px) rotate(-324deg); }
+.circle_container img:nth-child(1) { transform: rotate(0deg) translate(210px) rotate(0deg); }
+.circle_container img:nth-child(2) { transform: rotate(36deg) translate(210px) rotate(-36deg); }
+.circle_container img:nth-child(3) { transform: rotate(72deg) translate(210px) rotate(-72deg); }
+.circle_container img:nth-child(4) { transform: rotate(108deg) translate(210px) rotate(-108deg); }
+.circle_container img:nth-child(5) { transform: rotate(144deg) translate(210px) rotate(-144deg); }
+.circle_container img:nth-child(6) { transform: rotate(180deg) translate(210px) rotate(-180deg); }
+.circle_container img:nth-child(7) { transform: rotate(216deg) translate(210px) rotate(-216deg); }
+.circle_container img:nth-child(8) { transform: rotate(252deg) translate(210px) rotate(-252deg); }
+.circle_container img:nth-child(9) { transform: rotate(288deg) translate(210px) rotate(-288deg); }
+.circle_container img:nth-child(10) { transform: rotate(324deg) translate(210px) rotate(-324deg); }
 .circle_container img:nth-child(11) { transform: rotate(324deg) translate(0px) rotate(-324deg); }
 
-/* Center GIF */
 #gif {
-    width: 150px;
-    height: 150px;
-    margin-left: -30px;
-    margin-top: -30px;
+    width: 210px;
+    height: 210px;
+    margin-left: -42px;
+    margin-top: -42px;
 }
 
-/* Buttons */
 .buttons {
-    margin-top: 20px;
-    margin-left: -180px;
-
+    margin-top: 28px;
+    margin-left: -252px;
 }
 
 .btn {
     background-color: #ffffff;
-    margin-left: 50px;
+    margin-left: 70px;
     color: rgb(233, 48, 48);
-    padding: 15px 32px;
-    font-size: 16px;
+    padding: 21px 45px;
+    font-size: 22px;
     border: none;
-    border-radius: 12px;
+    border-radius: 17px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -90,6 +85,7 @@ body {
 .btn:hover {
     background-color: #ffd1dc;
 }
+
 #noButton {
-    position: absolute; /* Required for left and top positioning */
+    position: absolute;
 }
